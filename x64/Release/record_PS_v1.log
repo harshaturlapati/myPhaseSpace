@@ -1,0 +1,51 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (example_rigid1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  record_PS_v1.cc
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(121): warning C4251: 'OWL::MarkerInfo::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::MarkerInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(122): warning C4251: 'OWL::MarkerInfo::options': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::MarkerInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(130): warning C4251: 'OWL::TrackerInfo::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::TrackerInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(131): warning C4251: 'OWL::TrackerInfo::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::TrackerInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(132): warning C4251: 'OWL::TrackerInfo::options': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::TrackerInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(133): warning C4251: 'OWL::TrackerInfo::marker_ids': class 'std::vector<uint32_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'OWL::TrackerInfo'
+          with
+          [
+              _Ty=uint32_t
+          ]
+  d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(133): note: see declaration of 'std::vector<uint32_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint32_t
+          ]
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(146): warning C4251: 'OWL::FilterInfo::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::FilterInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(147): warning C4251: 'OWL::FilterInfo::options': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::FilterInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(156): warning C4251: 'OWL::DeviceInfo::type': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::DeviceInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(157): warning C4251: 'OWL::DeviceInfo::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::DeviceInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(158): warning C4251: 'OWL::DeviceInfo::options': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::DeviceInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(159): warning C4251: 'OWL::DeviceInfo::status': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::DeviceInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(166): warning C4251: 'OWL::PackInfo::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::PackInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(167): warning C4251: 'OWL::PackInfo::options': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'OWL::PackInfo'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(168): warning C4251: 'OWL::PackInfo::ids': class 'std::vector<uint64_t,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'OWL::PackInfo'
+          with
+          [
+              _Ty=uint64_t
+          ]
+  d:\dropbox_harsha\dropbox\_research\_____coding\2024-03-29_phasespace_vs_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\owl.hpp(168): note: see declaration of 'std::vector<uint64_t,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uint64_t
+          ]
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  record_PS_v1.vcxproj -> D:\dropbox_harsha\Dropbox\_research\_____coding\2024-03-29_PhaseSpace_VS_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\x64\Release\record_PS_v1.exe
+  record_PS_v1.vcxproj -> D:\dropbox_harsha\Dropbox\_research\_____coding\2024-03-29_PhaseSpace_VS_community\psclient-sdk-vs2015-3_0_474\psclient-3_0-sdk\vs2015\x64\Release\record_PS_v1.pdb (Full PDB)
