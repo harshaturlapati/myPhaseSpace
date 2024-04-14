@@ -1,5 +1,6 @@
 # myPhaseSpace
 Configuring and building codes for PhaseSpace X2E Motion Capture system
+[2024-04-14 update] Note that PhaseSpace IP is 192.180.0.170
 
 # Pre setup
 Install [Visual Studio 2015 Community](http://download.microsoft.com/download/b/e/d/bedddfc4-55f4-4748-90a8-ffe38a40e89f/vs2015.3.com_enu.iso)
