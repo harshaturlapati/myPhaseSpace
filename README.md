@@ -1,5 +1,6 @@
 # myPhaseSpace
 Configuring and building codes for PhaseSpace X2E Motion Capture system
+
 [2024-04-14 update] Note that PhaseSpace IP is 192.180.0.170
 
 # Pre setup
