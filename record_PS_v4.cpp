@@ -251,7 +251,6 @@ int main(int argc, const char **argv)
 			//string_object_name << 50;
 			//variable_string = "";
 			std::cout << "# IMUs switched on: ";
-			variable_string << "# IMUs switched on: ";
 			//imu_info(owl, event, log_file);
 			
 			IMU_string = imu_info_v2(owl, event, log_file);
