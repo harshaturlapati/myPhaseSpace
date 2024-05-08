@@ -19,3 +19,6 @@ Install [Visual Studio 2015 Community](http://download.microsoft.com/download/b/
 1. Copy and rename the vcxproj file
 2. After opening it in visual studio, delete the old .cpp/.cc file
 4. Add a new .cpp file (right click on project in solution explorer and Add new item) and build that instead.
+5. When building retarget solution to 8.1 platform version
+6. Rebuild solution and rebuild project
+7. Run Windows Debugger in Release-x86 mode.
