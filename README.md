@@ -18,4 +18,4 @@ Install [Visual Studio 2015 Community](http://download.microsoft.com/download/b/
 ## (Temporary instructions) To create a new solution
 1. Copy and rename the vcxproj file
 2. After opening it in visual studio, delete the old .cpp/.cc file
-3. Add a new .cpp file and build that instead.
+4. Add a new .cpp file (right click on project in solution explorer and Add new item) and build that instead.
