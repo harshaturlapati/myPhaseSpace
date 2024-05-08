@@ -132,7 +132,7 @@ stringstream imu_info_v2(OWL::Context &owl, const OWL::Event *frame, ofstream &l
 	if (!inputs)
 	{
 		std::cout << num_IMUs;
-		IMU_string << "";
+		//IMU_string << "";
 		return IMU_string;
 	}
 
@@ -176,7 +176,7 @@ int main(int argc, const char **argv)
 {
 
 	/* 2024-05-08 : Setting up PhaseSpace UDP to stream out data*/
-	myKINOVA_UDP ROBOT_UDP(0, 27109, 27110, "127.0.0.1", "127.0.0.1");
+	myPhaseSpace_UDP ROBOT_UDP(0, 27109, 27110, "127.0.0.1", "127.0.0.1");
 	ROBOT_UDP.setup_UDP();
 	const char* mysendbuf3;
 	//mysendbuf3 = "hahahaha";
@@ -264,6 +264,7 @@ int main(int argc, const char **argv)
 			{
 
 				log_file << "||MARKERS||";
+				variable_string << "||MARKERS||";
 				std::cout << ", # MARKERS visible = ";
 				num_visible = 0;
 				for (OWL::Markers::iterator m = markers.begin(); m != markers.end(); m++)
@@ -275,6 +276,8 @@ int main(int argc, const char **argv)
 					}
 				std::cout << num_visible << ".";
 				log_file << "t: " << GetTickUs() << endl;
+				variable_string << "t: " << GetTickUs();
+				//<< endl;
 			}
 			std::cout << endl;
 
