@@ -28,3 +28,12 @@ Install [Visual Studio 2015 Community](http://download.microsoft.com/download/b/
 5. When building retarget solution to 8.1 platform version
 6. Rebuild solution and rebuild project
 7. Run Windows Debugger in Release-x86 mode.
+
+### Notes about IMU (Important)
+1. For any experiment, re-address the microdrivers everytime. Log in as root to the server: Open Powershell --> ssh demo@192.180.0.170 (password: demo) --> su (password: phasespace) --> Verify that you are root using whoami --> fwload -r <rxaddr> to re-address your microdriver as rxaddr
+2. The addressing scheme in the case of 4 drivers constitutes of a mask=0x03, select=[0x00|0x01|0x02|0x03].
+Example:
+driver-1: rxaddr=0x8300
+driver-2: rxaddr=0x8301
+driver-3: rxaddr=0x8302
+driver-4: rxaddr=0x8303
