@@ -30,10 +30,15 @@ Install [Visual Studio 2015 Community](http://download.microsoft.com/download/b/
 7. Run Windows Debugger in Release-x86 mode.
 
 ### Notes about IMU (Important)
-1. For any experiment, re-address the microdrivers everytime. Log in as root to the server: Open Powershell --> ssh demo@192.180.0.170 (password: demo) --> su (password: phasespace) --> Verify that you are root using whoami --> fwload -r <rxaddr> to re-address your microdriver as rxaddr
-2. The addressing scheme in the case of 4 drivers constitutes of a mask=0x03, select=[0x00|0x01|0x02|0x03].
-Example:
-driver-1: rxaddr=0x8300
-driver-2: rxaddr=0x8301
-driver-3: rxaddr=0x8302
-driver-4: rxaddr=0x8303
+1. For any experiment, re-address the microdrivers everytime.
+2. Log in as root to the server using Powershell
+3. ssh demo@192.180.0.170 (password: demo)
+4. su (password: phasespace)
+5. Verify that you are root using whoami
+6. fwload -r <rxaddr> to re-address your microdriver as rxaddr
+
+The addressing scheme in the case of 4 drivers constitutes of a mask=0x03, select=[0x00|0x01|0x02|0x03]. Example:
+driver-1: rxaddr=0x8300<br />
+driver-2: rxaddr=0x8301<br />
+driver-3: rxaddr=0x8302<br />
+driver-4: rxaddr=0x8303<br />
