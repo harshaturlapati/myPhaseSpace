@@ -1,0 +1,16 @@
+Attached are the user manual for the Master client and the quick start client.
+
+There is more up to date and dynamic documentation embedded in the PhaseSpace Configuration Manager Help section and at: 
+
+http://customers.phasespace.com/anonymous/SDK/5.2/psdoc/index.html (login: anonymous, password: guest) 
+
+The Windows installer for the Master Client software application is located at: 
+
+customers.phasespace.com/anonymous/Software/5.3    (login: anonymous, password: guest) 
+
+Look for: Master Client-5.2.315.0-x64.msi 
+
+The PhaseSpace SDK packages can be found at: 
+
+customers.phasespace.com/anonymous/SDK/5.2    (login: anonymous, password: guest) 
+
