@@ -32,12 +32,13 @@ Install [Visual Studio 2015 Community](http://download.microsoft.com/download/b/
 ### Notes about IMU (Important)
 1. For any experiment, re-address the microdrivers everytime.
 2. Log in as root to the server using Powershell
-3. ssh demo@192.180.0.170 (password: demo)
-4. su (password: phasespace)
+3. ``ssh demo@192.180.0.170`` (password: demo)
+4. ``su`` (password: phasespace)
 5. Verify that you are root using whoami
-6. fwload -r <rxaddr> to re-address your microdriver as rxaddr
+6. ``fwload -r <rxaddr>`` to re-address your microdriver as rxaddr, press enter
+7. Plug in microdriver into server USB port while holding down the red button.
 
-The addressing scheme in the case of 4 drivers constitutes of a mask=0x03, select=[0x00|0x01|0x02|0x03]. Example:
+The addressing scheme in the case of 4 drivers constitutes of a mask=0x03, select=[0x00|0x01|0x02|0x03]. Example:<br />
 driver-1: rxaddr=0x8300<br />
 driver-2: rxaddr=0x8301<br />
 driver-3: rxaddr=0x8302<br />
