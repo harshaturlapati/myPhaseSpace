@@ -43,3 +43,7 @@ driver-1: rxaddr=0x8300<br />
 driver-2: rxaddr=0x8301<br />
 driver-3: rxaddr=0x8302<br />
 driver-4: rxaddr=0x8303<br />
+
+## Misc notes
+1. Ensure all other Microdrivers and switched off during experiment.
+2. Remember to set up session profiles and include specific microdrivers (TODO: consider how to isolate session-profile wise marker sampling in C++)
