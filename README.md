@@ -3,6 +3,18 @@ Configuring and building codes for PhaseSpace X2E Motion Capture system
 
 [2024-04-14 update] Note that PhaseSpace IP is 192.180.0.170
 
+There is more up to date and dynamic documentation embedded in the PhaseSpace Configuration Manager Help section and at: 
+http://customers.phasespace.com/anonymous/SDK/5.2/psdoc/index.html (login: anonymous, password: guest) 
+
+The Windows installer for the Master Client software application is located at: 
+customers.phasespace.com/anonymous/Software/5.3    (login: anonymous, password: guest) 
+
+Look for: Master Client-5.2.315.0-x64.msi 
+
+The PhaseSpace SDK packages can be found at: 
+customers.phasespace.com/anonymous/SDK/5.2    (login: anonymous, password: guest) 
+
+
 # Pre setup
 Install [Visual Studio 2015 Community](http://download.microsoft.com/download/b/e/d/bedddfc4-55f4-4748-90a8-ffe38a40e89f/vs2015.3.com_enu.iso)
 
