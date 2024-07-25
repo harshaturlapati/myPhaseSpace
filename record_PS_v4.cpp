@@ -235,7 +235,7 @@ int main(int argc, const char **argv)
 	owl.streaming(1);
 
 	// main loop
-	while (owl.isOpen() && owl.property<int>("initialized"))
+	while (owl.isOpen() && owl.property<int>("initialized") && !(GetKeyState('Q') & 0x8000))
 	{
 		const OWL::Event *event = owl.nextEvent(1);
 		if (!event) continue;
